@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "react-dev": "webpack -d --watch"
   },
   "babel": {
     "presets": [
@@ -29,6 +30,7 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
